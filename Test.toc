@@ -1,0 +1,34 @@
+\contentsline {chapter}{\numberline {1}第一部分}{3}
+\contentsline {section}{\numberline {1.1}简介}{3}
+\contentsline {subsection}{\numberline {1.1.1}Latex家族}{3}
+\contentsline {paragraph}{Tex}{3}
+\contentsline {paragraph}{LaTex}{3}
+\contentsline {paragraph}{pdfTex - pdfLaTex}{3}
+\contentsline {paragraph}{XeTeX - XeLaTeX}{4}
+\contentsline {subsection}{\numberline {1.1.2}发行版}{4}
+\contentsline {section}{\numberline {1.2}安装与配置}{4}
+\contentsline {subsection}{\numberline {1.2.1}Windows}{4}
+\contentsline {subsection}{\numberline {1.2.2}Linux-Ubuntu}{5}
+\contentsline {section}{\numberline {1.3}基本设置}{6}
+\contentsline {section}{\numberline {1.4}newcommand 自定义命令}{6}
+\contentsline {section}{\numberline {1.5}版面设置}{6}
+\contentsline {subsection}{\numberline {1.5.1}页面设置}{6}
+\contentsline {subsection}{\numberline {1.5.2}页眉页脚}{7}
+\contentsline {subsection}{\numberline {1.5.3}首行缩进}{7}
+\contentsline {subsection}{\numberline {1.5.4}行间距}{7}
+\contentsline {subsection}{\numberline {1.5.5}段间距}{7}
+\contentsline {section}{\numberline {1.6}表格}{8}
+\contentsline {section}{\numberline {1.7}数学公式}{10}
+\contentsline {subsection}{\numberline {1.7.1}根式 \& 分式 }{10}
+\contentsline {subsection}{\numberline {1.7.2}定界符}{10}
+\contentsline {subsection}{\numberline {1.7.3}省略号}{11}
+\contentsline {subsection}{\numberline {1.7.4}连续求和 \& 求积}{11}
+\contentsline {subsection}{\numberline {1.7.5}矩阵}{11}
+\contentsline {subsection}{\numberline {1.7.6}多行公式}{12}
+\contentsline {subsection}{\numberline {1.7.7}公式组}{12}
+\contentsline {subsection}{\numberline {1.7.8}分段函数}{12}
+\contentsline {section}{\numberline {1.8}代码排版}{13}
+\contentsline {paragraph}{Support Language}{13}
+\contentsline {paragraph}{Settings}{13}
+\contentsline {section}{\numberline {1.9}定制章节样式}{14}
+\contentsline {subsection}{\numberline {1.9.1}盒子}{15}

@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper,twoside,openright]{book}
+%nummering
+% 画图
+\usepackage{tikz}
+\usetikzlibrary{matrix,arrows,shapes,chains}
+% 页眉页脚
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{plain}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+\usepackage[dutch]{babel}
+\usepackage[babel=true]{csquotes}
+\usepackage[T1]{fontenc}
+\usepackage[explicit]{titlesec}
+
+\usepackage{xcolor}
+% 衬线字体
+\usepackage{charter}
+
+\definecolor{mybluei}{RGB}{20, 0, 100}
+\definecolor{myblueii}{RGB}{0, 0, 100}
+\usepackage{rotating, graphicx}
+
+\usepackage{tcolorbox}
+
+\newcommand\ChapterFont{\rmfamily\selectfont\huge}
+\newcommand\SectionFont{\bfseries\rmfamily\selectfont\Large}
+
+
+\titleformat{\chapter}[block]
+ {\normalfont\ChapterFont\huge\color{myblueii}} 
+ {\tcbset{colframe=mybluei, boxrule=0.8pt, left=0pt, right=0pt, top=0pt, bottom=0pt}\raisebox{-0.48\height}{\rotatebox{90}{\tcbox[boxsep=4pt, colback= white ]{\color{mybluei}\Large\chaptertitlename}}}\hskip 0.25em\mbox{\tcbox[ boxsep=12pt, colback=mybluei, tcbox raise = -35pt]{\color{white}\bfseries\fontsize{70}{70}\selectfont\thechapter}}}
+ {0.5em}
+ {#1\vskip0.6ex\endgraf\titlerule[1ex]}[]
+
+ 
+ \titleformat{\section}
+ {\normalfont\small\sffamily\SectionFont\color{myblueii}}
+ {\colorbox{mybluei}{%
+        \parbox[c][16pt][c]{40pt}{%
+            \centering\textcolor{white}{\SectionFont\Large\rmfamily\thesection}%
+        }%
+    }%
+ }
+ {1em}
+ {#1}
+ [\vspace{-0.755\baselineskip}%
+ \color{myblueii}\hspace*{\dimexpr40pt+2\fboxsep\relax}%
+ \rule{\dimexpr\textwidth-40pt-2\fboxsep\relax}{1pt}%
+ ]
+ 
+ \usepackage{amsmath, amsthm, amssymb, amsfonts, enumerate}%, dlfltxbcodetips
+ \renewcommand{\qedsymbol}{$\blacksquare$}
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\chapter{Vectorruimtem}
+\lipsum[1]
+
+\chapter{LatexBaiyan}
+\lipsum[1]
+\section{wodfhjdsscvbn}
+\lipsum[1]
+
+\lipsum[1]
+
+\lipsum[1]
+
+\end{document}
